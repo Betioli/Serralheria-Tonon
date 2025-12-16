@@ -227,6 +227,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 30px;
     margin-top: 30px;
+    align: left;
 }
 
 .analysis-card {
@@ -721,41 +722,18 @@ body {
    FOOTER
    ============================================ */
 
-.footer {
-    background-color: var(--text-dark);
-    color: var(--bg-white);
+.container-footer {
+    background-color: oklch(21% .034 264.665);
     padding: 40px 0;
     border-top: 1px solid var(--border-color);
 }
 
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 30px;
-}
-
-.footer h3 {
-    color: var(--primary-yellow);
-    font-size: 20px;
-}
-
-.footer-links {
-    display: flex;
-    gap: 25px;
-    flex-wrap: wrap;
-}
-
-.footer-links a {
-    color: var(--bg-white);
-    text-decoration: none;
-    font-size: 14px;
-    transition: color 0.3s ease;
-}
-
-.footer-links a:hover {
-    color: var(--primary-yellow);
+.who p {
+    text-align: center;
+    color: oklch(0.71 0.02 261.83);
+    font-size: .75rem;
+    line-height: var(--tw-leading, var(--text-xs--line-height));
+    outline-color: color-mix(in oklab, var(--ring) 50%, transparent);
 }
 
 /* ============================================
