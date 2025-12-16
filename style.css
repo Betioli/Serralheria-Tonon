@@ -198,6 +198,9 @@ body {
 
 .section {
     padding: 60px 0;
+     /* ou .hero, etc. */
+    padding-top: 80px; /* ajuste para altura do navbar */
+    margin-top: -80px; /* opcional para offset */
 }
 
 
