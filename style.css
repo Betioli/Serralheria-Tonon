@@ -144,13 +144,21 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    min-height: 300px;
+    min-height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: var(--bg-white);
     text-align: center;
+    position: relative;    
+    background-image: url('/images/hero-background.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
     position: relative;
+    background-color: color-mix(in oklab, var(--color-black) 50%, transparent);
+    z-index: 1;
+
 }
 
 .hero::before {
@@ -160,8 +168,9 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(62, 62, 148, 0.7);
     z-index: 1;
+    background: linear-gradient(to right, rgba(70, 70, 70, 0), rgba(90, 90, 90, 0.4));
+
 }
 
 .hero-content {
