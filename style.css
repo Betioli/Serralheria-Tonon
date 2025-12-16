@@ -503,6 +503,43 @@ body {
     border-left: 4px solid #e74c3c;
     margin-bottom: 40px;
 }
+.custo-inacao {
+    background: linear-gradient(135deg, #3E3E94 0%, #FFF111 80%);
+    padding: 1.8rem 2.2rem;
+    border-radius: 12px;
+    margin: 2rem 0;
+    color: #fff;
+    box-shadow: 0 4px 15px rgba(225, 50, 132, 0.25);
+}
+
+.custo-inacao h4 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 0 0 1.2rem 0;
+    color: #F7E501;
+}
+
+.custo-inacao ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.custo-inacao ul li {
+    padding: 0.6rem 0;
+    font-size: 1rem;
+    line-height: 1.6;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.custo-inacao ul li:last-child {
+    border-bottom: none;
+}
+
+.custo-inacao ul li strong {
+    color: #F7E501;
+    font-weight: 600;
+}
 
 .problem-header h3 {
     color: #c0392b;
